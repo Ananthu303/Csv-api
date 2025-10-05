@@ -109,7 +109,7 @@ Now, you can access the API's at `http://127.0.0.1:8000/`.
 ### 7. Usage
 
 1. **Import Postman Collection:**  
-   - Open the Postman collection provided in the repository (`CSV Upload API.postman_collection.json`).  
+   - Open the Postman collection provided in the repository (`CSV API.postman_collection.json`).  
 
 2. **Upload a CSV file:**  
    - Navigate to the endpoint:  
