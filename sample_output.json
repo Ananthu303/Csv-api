@@ -1,0 +1,51 @@
+{
+    "saved_records": 3,
+    "rejected_records": 5,
+    "errors": [
+        {
+            "row": 3,
+            "email": "emptyname@example.com",
+            "errors": {
+                "name": [
+                    "This field may not be blank."
+                ]
+            }
+        },
+        {
+            "row": 4,
+            "email": "invalidemail",
+            "errors": {
+                "email": [
+                    "Enter a valid email address."
+                ]
+            }
+        },
+        {
+            "row": 5,
+            "email": "young@example.com",
+            "errors": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        },
+        {
+            "row": 6,
+            "email": "old@example.com",
+            "errors": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        },
+        {
+            "row": 7,
+            "email": "alice@example.com",
+            "errors": {
+                "email": [
+                    "custom user with this email already exists."
+                ]
+            }
+        }
+    ]
+}

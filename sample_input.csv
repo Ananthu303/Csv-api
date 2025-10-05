@@ -1,0 +1,9 @@
+name,email,age
+Alice Wonderland,alice@example.com,28
+Bob Marley,bob@example.com,42
+,emptyname@example.com,30
+Invalid Email,invalidemail,25
+Too Young,young@example.com,-5
+Too Old,old@example.com,150
+Duplicate Email,alice@example.com,35
+Charlie Chaplin,charlie@example.com,50
