@@ -21,6 +21,11 @@ class UserViewSet(viewsets.ModelViewSet):
         """
         Upload a CSV file containing users.
         Expected columns: name,email,age
+
+        Note:
+        For large CSV files or bulk uploads, this task can be offloaded to a
+        background worker using Celery to prevent blocking the request-response cycle
+        and improve performance.
         """
         file = request.FILES.get("file")
         if not file:
